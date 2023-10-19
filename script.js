@@ -76,7 +76,7 @@ fetch('us-states.json')
             const stateAbbr = stateAbbreviations[state];
             let popupText = `<div style='background-color:white; color:black; font-family:Arial;'>
                                 <h2>Laws in ${state}</h2>
-                                <a href='https://api.legiscan.com/?key=3e4fa14a5c301223d291776f0f4555a7&op=getSearch&state=${stateAbbr}&year=2023&query=%22same-sex%22%20OR%20%22drag%22%20OR%20%22transgender%22&page=1'>
+                                <a href='https://zthewriter.github.io/${stateAbbr}'>
                                     Click here for more information
                                 </a>
                              </div>`;
